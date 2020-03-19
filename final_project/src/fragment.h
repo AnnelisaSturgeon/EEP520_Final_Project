@@ -6,6 +6,9 @@
 using namespace enviro;
 
 class FragmentController : public Process, public AgentInterface {
+    // the FragmentController controlls the Fragement class. This
+    // class has no defined behavior. It's role is to ocupy space
+    // and allow the Leader to push it out of the way.
 
     public:
     FragmentController() : Process(), AgentInterface() {}

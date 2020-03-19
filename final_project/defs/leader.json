@@ -71,6 +71,16 @@
         "type": "range",
         "location": { "x": 0, "y": -10 },
         "direction": -0.8
+      },
+      { 
+        "type": "range",
+        "location": { "x": 0, "y": 10 },
+        "direction": 0.6
+      },
+      { 
+        "type": "range",
+        "location": { "x": 0, "y": -10 },
+        "direction": -0.6
       }                    
     ],
     "mass": 1,
