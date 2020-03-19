@@ -93,7 +93,7 @@ class LeaderController : public Process, public AgentInterface {
                 hit = false;
                 //first_round = false;
             }
-            else if (track < 10 || count < 30) {
+            else if (track < 8 || count < 30) {
                 // values = sensor_values();
                 // //move_toward(goal_x, goal_y);
                 // for(int i=0; i<values.size(); i++) {
