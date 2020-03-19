@@ -1,13 +1,8 @@
 # EEP520_Final_Project
 
-ENVIRO: The multi-agent, multi-user, multi-everything simulator
-===
-
 Overview
 ===
 The goal of this project was to create a simulation of a Leader agent that is locked in a rectangular room, whose goal it is to find one egg at a time. When the leader comes in contact with the egg, it turns into a “bad egg” and a new egg is created for the leader to seek. During the leader’s quest for each new egg, it tries to avoid contact with all the bad egg because the bad eggs will fracture upon contact into 5 pieces of equal size to the original bad egg. The leader wants to avoid this as much as possible because the egg fragments take up 5 times the amount of space as a bad egg. Once a bad egg has fractured, i’s pieces turn blue. The leader can come in contact with them and move them out of the way without any consequence. The leader’s goal is to capture as many eggs as possible before being crushed or completely stuck by all the bad eggs and fragment trapped in the room. 
-
-===
 
 Challenges
 ===
