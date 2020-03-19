@@ -1,0 +1,19 @@
+{
+    "name": "Fragment",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+      { "x": -5, "y": 5 },
+      { "x": 5, "y": 5 },
+      { "x": 5, "y": -5 },
+      { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 20,
+      "rotational": 60
+    },
+    "sensors": [],
+    "mass": 0.1,    
+    "controller": "lib/fragment.so"
+}
