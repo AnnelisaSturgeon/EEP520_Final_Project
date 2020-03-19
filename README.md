@@ -11,7 +11,7 @@ The biggest challenge faced with this project was figuring out how to refine the
 I also struggled with creating and timing the watching events in combination with the destructions and addition of agents during the simulation. All of the removals and addition of agents were triggered by watch events or collision events. It took me a while to realize my simulation was not working because I put the addition and removal of agents directly into the watch and collision events.  I resolved this by creating Boolean values that set to true when the events were triggered and putting the agent additions and removals into for loops set to the Boolean values. 
 
 
-Instalation
+Installation
 ===
 
 Start by cloning the git repository.
@@ -31,18 +31,19 @@ enviro
 This will start the the simulation. 
 To view the simulation open a web browser and trype in http://localhost/
 
+
 Running the Simulation
 ===
 
 The simulation will run automatically. There are no user commands needed. Simply watch and enjoy the leaders progress.
 
-===
 
 Outside Sources of Information
 ===
 This project is built off of enviro: https://github.com/klavinslab/enviro
 
 It also uses math.h and string
+
 
 Code
 ===
